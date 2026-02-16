@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login Form</title>
+</head>
+<body>
+    <form action="#">
+       <p>
+           <label for="name">Enter Name:</label>
+           <input type="text" id="name" placeholder="Xyz hx" required>
+        </p>
+        <p>
+            <label for="roll">Enter roll No.</label>
+            <input type="number" id="roll" placeholder="250320xxxxxx" required>
+        </p>
+        <p>
+            <label for="dob">Enter DOB</label>
+            <input type="date" id="dob" required>
+        </p>
+        <p>
+             <label for="pass">Create Password</label>
+            <input type="password" id="pass" required>
+        </p>
+        <p>
+             <label for="passcheck">Re-enter Password</label>
+            <input type="password" id="passcheck" required>
+        </p>
+        <p>
+           <label>Choose Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+        </p>
+        <p>
+        <label for="course"> Select Course </label>
+        <select name="user-course" id="course" required>
+          <option value="b.Tech">Btech</option>
+          <option value="M.Tech">Mtech</option>
+          <option value="Mba">Mba</option>
+        </select>
+      </p>
+      <p>
+        <label for="context">Enter About preference</label>
+        <br />
+        <textarea 
+          name="context-student"
+          id="context"
+          required
+          placeholder="I like to join this course....."
+          rows="20"
+          cols="30"
+        >
+        </textarea>
+      </p>
+      <button>
+        submit
+      </button>
+     </form>
+     <hr>
+<footer>
+            <p>&copy; 2025 Student Registration Portal</p>
+    </footer>
+</body>
+</html>
